@@ -1,0 +1,20 @@
+{
+  "name": "lerna-test-hoisted",
+  "version": "0.1.0",
+  "description": "description root",
+  "private": true,
+  "scripts": {
+    "clean": "npx npm-run-all clean:*",
+    "clean:lerna": "lerna clean --yes",
+    "clean:lock": "rimraf **/package-lock.json",
+    "clean:modules": "npx rimraf node_modules",
+    "postinstall": "lerna bootstrap --hoist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "unlicensed",
+  "devDependencies": {
+    "lerna": "^3.4.3",
+    "rimraf": "^2.6.2"
+  }
+}

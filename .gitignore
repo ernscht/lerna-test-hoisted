@@ -1,0 +1,21 @@
+# IDE
+_.*
+.project
+.idea
+/*.iml
+.vscode
+.cache
+.settings
+.config
+.buildpath
+.metadata
+.tmp*
+*.prefs
+.deployables
+atlassian-ide-plugin.xml
+
+# Node
+**/node_modules
+**/npm-debug.log
+**/yarn-error.log
+**/lerna-debug.log

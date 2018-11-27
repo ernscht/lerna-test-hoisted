@@ -1,0 +1,22 @@
+{
+  "name": "@my/b",
+  "version": "1.0.0",
+  "description": "description b",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "b",
+    "utils"
+  ],
+  "author": "",
+  "license": "unlicensed",
+  "devDependencies": {
+    "extend": "3.0.2"
+  },
+  "dependencies": {
+    "async": "2.6.1"
+  }
+}
