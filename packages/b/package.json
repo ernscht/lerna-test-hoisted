@@ -14,9 +14,9 @@
   "author": "",
   "license": "unlicensed",
   "devDependencies": {
-    "extend": "3.0.2"
+    "yn": "2.0.0"
   },
   "dependencies": {
-    "async": "2.6.1"
+    "is-reachable": "2.4.0"
   }
 }

@@ -17,6 +17,6 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "chalk": "^2.4.1"
+    "normalize-url": "^4.0.0"
   }
 }
