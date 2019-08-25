@@ -15,7 +15,7 @@
   "author": "me",
   "license": "unlicensed",
   "devDependencies": {
-    "lerna": "3.13.4",
-    "rimraf": "2.6.3"
+    "lerna": "3.16.4",
+    "rimraf": "3.0.0"
   }
 }
