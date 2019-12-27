@@ -5,17 +5,17 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "clean": "npx npm-run-all clean:*",
+    "clean": "npx --ignore-existing --quiet npm-run-all clean:*",
     "clean:lerna": "lerna clean --yes",
     "clean:lock": "rimraf **/package-lock.json",
-    "clean:modules": "npx rimraf node_modules",
+    "clean:modules": "npx --ignore-existing --quiet rimraf node_modules",
     "postinstall": "npm run bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me",
   "license": "unlicensed",
   "devDependencies": {
-    "lerna": "3.16.4",
+    "lerna": "3.20.0",
     "rimraf": "3.0.0"
   }
 }
