@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [
     "b",
@@ -14,7 +14,8 @@
   "author": "",
   "license": "unlicensed",
   "devDependencies": {
-    "yn": "4.0.0"
+    "yn": "4.0.0",
+    "@my/a": "*"
   },
   "dependencies": {
     "is-reachable": "4.0.0"
