@@ -14,10 +14,10 @@
   "author": "",
   "license": "unlicensed",
   "devDependencies": {
-    "yn": "4.0.0",
+    "yn": "5.0.0",
     "@my/a": "*"
   },
   "dependencies": {
-    "is-reachable": "5.0.0"
+    "is-reachable": "5.2.1"
   }
 }
