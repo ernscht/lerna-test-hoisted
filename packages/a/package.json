@@ -14,9 +14,9 @@
   "author": "",
   "license": "unlicensed",
   "devDependencies": {
-    "jest": "29.0.3"
+    "jest": "29.3.1"
   },
   "dependencies": {
-    "normalize-url": "7.1.0"
+    "normalize-url": "8.0.0"
   }
 }
